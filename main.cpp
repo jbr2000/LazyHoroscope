@@ -17,5 +17,11 @@ cin>>second;
 cout<<"Welcome, "<<first.at(0)<<"."<<second.at(0)<<"., here is your fortune..."<<endl;
   //tell fortune
 cout<<"your lucky number is "<<first.length()<<endl;
-  return 0;
+  //tell fortune pt two
+char initial=first.at(0);
+if (initial == 'a' || initial=='e' || initial=='o' ||initial=='i'||initial=='u'||initial == 'A' || initial=='E' || initial=='O' ||initial=='I'||initial=='U')
+{
+      cout<<"you are destined to be famous!"<<endl;
+}
+return 0;
 }
