@@ -23,5 +23,18 @@ if (initial == 'a' || initial=='e' || initial=='o' ||initial=='i'||initial=='u'|
 {
       cout<<"you are destined to be famous!"<<endl;
 }
+else
+{
+        cout<<"you should keep a low profile."<<endl;
+}
+
+  //tell fortune pt three
+char initialLast = second.at(second.length() - 1);
+if (initialLast == 'a' || initialLast=='e' || initialLast=='o' ||initialLast=='i'||initialLast=='u'||initialLast == 'A' || initialLast=='E' || initialLast=='O' ||initialLast=='I'||initialLast=='U')
+{
+cout<<"you have already met your true love."<<endl;
+}
+cout<<"have a good day!"<<endl;
+
 return 0;
 }
